@@ -59,6 +59,7 @@ along with pragmatickm-bom.  If not, see <http://www.gnu.org/licenses />.
 		</section:nav>
 		<section:section label="Managed Dependencies">
 			<ul>
+				<li><core:link book="/all" page="/" /></li>
 				<li><core:link book="/contact/bom" page="/" /></li>
 				<li><core:link book="/password/bom" page="/" /></li>
 				<li><core:link book="/procedure/bom" page="/" /></li>

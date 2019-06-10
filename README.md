@@ -27,6 +27,7 @@ Bill of Materials (BOM) for all [PragmaticKM](https://github.com/aoindustries/pr
 * [GitHub](https://github.com/aoindustries/pragmatickm-bom)
 
 ## Managed Dependencies
+* [PragmaticKM All](https://github.com/aoindustries/pragmatickm-all)
 * [PragmaticKM Contact BOM](https://github.com/aoindustries/pragmatickm-contact-bom)
 * [PragmaticKM Password BOM](https://github.com/aoindustries/pragmatickm-password-bom)
 * [PragmaticKM Procedure BOM](https://github.com/aoindustries/pragmatickm-procedure-bom)
