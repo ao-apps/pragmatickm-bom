@@ -48,26 +48,26 @@ along with pragmatickm-bom.  If not, see <http://www.gnu.org/licenses />.
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>1.5.0-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>1.5.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-bom</artifactId><version>1.4.0-SNAPSHOT</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-bom</artifactId><version>1.5.0-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-bom</artifactId><version>1.4.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-bom</artifactId><version>1.5.0-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-bom</artifactId><version>1.5.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-bom</artifactId><version>1.5.0-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-bom</artifactId><version>1.5.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-bom</artifactId><version>1.5.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
