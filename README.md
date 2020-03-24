@@ -23,7 +23,7 @@ Bill of Materials (BOM) for all [PragmaticKM](https://github.com/aoindustries/pr
 ## Project Links
 * [Project Home](https://pragmatickm.com/bom/)
 * [Changelog](https://pragmatickm.com/bom/changelog)
-* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.pragmatickm%22%20AND%20a:%22pragmatickm-bom%22)
+* [Maven Central Repository](https://search.maven.org/artifact/com.pragmatickm/pragmatickm-bom)
 * [GitHub](https://github.com/aoindustries/pragmatickm-bom)
 
 ## Managed Dependencies
