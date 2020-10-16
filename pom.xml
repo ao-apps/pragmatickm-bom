@@ -29,7 +29,7 @@ along with pragmatickm-bom.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-bom</artifactId><version>1.5.0-POST-SNAPSHOT</version>
+	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-bom</artifactId><version>1.5.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>PragmaticKM BOM</name>
@@ -52,7 +52,7 @@ along with pragmatickm-bom.  If not, see <http://www.gnu.org/licenses />.
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>1.5.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
@@ -61,7 +61,7 @@ along with pragmatickm-bom.  If not, see <http://www.gnu.org/licenses />.
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-bom</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-bom</artifactId><version>1.5.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
