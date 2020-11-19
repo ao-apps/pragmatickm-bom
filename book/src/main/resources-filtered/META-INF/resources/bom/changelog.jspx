@@ -37,7 +37,7 @@ along with pragmatickm-bom.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2019-06-10T01:07:41-0500"
-		dateModified="2020-03-29T06:32:06-05:00"
+		dateModified="2020-11-18T22:44:31-06:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.pragmatickm:pragmatickm-bom:pom.version}" />
@@ -52,7 +52,13 @@ along with pragmatickm-bom.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{project.scm.url}"
-			/>
+			>
+				<ul>
+					<li>Updated version of <core:link book="/all" page="/" />.</li>
+					<li>Updated version of <core:link book="/password/bom" page="/" />.</li>
+					<li>Updated version of <core:link book="/task/bom" page="/" />.</li>
+				</ul>
+			</changelog:release>
 		</c:if>
 
 		<changelog:release
