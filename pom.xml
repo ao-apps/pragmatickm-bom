@@ -29,7 +29,7 @@ along with pragmatickm-bom.  If not, see <https://www.gnu.org/licenses/>.
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-bom</artifactId><version>1.6.2</version>
+	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-bom</artifactId><version>1.6.2-POST-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -71,7 +71,7 @@ along with pragmatickm-bom.  If not, see <https://www.gnu.org/licenses/>.
 		<connection>scm:git:git://github.com/ao-apps/pragmatickm-bom.git</connection>
 		<developerConnection>scm:git:git@github.com:ao-apps/pragmatickm-bom.git</developerConnection>
 		<url>https://github.com/ao-apps/pragmatickm-bom</url>
-		<tag>pragmatickm-bom-1.6.2</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
