@@ -126,7 +126,7 @@ along with pragmatickm-bom.  If not, see <https://www.gnu.org/licenses/>.
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-bom</artifactId><version>1.6.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-bom</artifactId><version>1.6.1${POST-SNAPSHOT}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
