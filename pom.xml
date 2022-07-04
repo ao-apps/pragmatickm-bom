@@ -39,7 +39,7 @@ along with pragmatickm-bom.  If not, see <https://www.gnu.org/licenses/>.
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
-  <name>PragmaticKM BOM²</name>
+  <name>PragmaticKM BOM</name>
   <url>https://pragmatickm.com/bom/</url>
   <description>Bill of Materials (BOM) for all PragmaticKM packages.</description>
   <inceptionYear>2019</inceptionYear>
