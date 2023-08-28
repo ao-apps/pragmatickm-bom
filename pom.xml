@@ -32,9 +32,6 @@ along with pragmatickm-bom.  If not, see <https://www.gnu.org/licenses/>.
   <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-bom</artifactId><version>2.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <properties>
-  </properties>
-
   <name>PragmaticKM BOM</name>
   <url>https://pragmatickm.com/bom/</url>
   <description>Bill of Materials (BOM) for all PragmaticKM packages.</description>
