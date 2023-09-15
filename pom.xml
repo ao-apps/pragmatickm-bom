@@ -103,28 +103,29 @@ along with pragmatickm-bom.  If not, see <https://www.gnu.org/licenses/>.
       <dependency>
         <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>1.6.3${POST-SNAPSHOT}</version>
       </dependency>
+      <!-- Imports -->
       <dependency>
-        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>1.6.3${POST-SNAPSHOT}</version>
+        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>1.6.3-POST-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-bom</artifactId><version>1.5.2${POST-SNAPSHOT}</version>
+        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-bom</artifactId><version>1.5.2-POST-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-bom</artifactId><version>1.6.2${POST-SNAPSHOT}</version>
+        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-bom</artifactId><version>1.6.2-POST-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-bom</artifactId><version>1.6.1${POST-SNAPSHOT}</version>
+        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-bom</artifactId><version>1.6.1-POST-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-bom</artifactId><version>1.7.3${POST-SNAPSHOT}</version>
+        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-bom</artifactId><version>1.7.3-POST-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -167,4 +168,33 @@ along with pragmatickm-bom.  If not, see <https://www.gnu.org/licenses/>.
       </dependency>
     </dependencies>
   </dependencyManagement>
+
+  <dependencies>
+    <!-- Imports (Reactor build order only) -->
+    <dependency>
+      <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>1.6.3-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-bom</artifactId><version>1.5.2-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-bom</artifactId><version>1.6.2-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-bom</artifactId><version>1.6.1-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-bom</artifactId><version>1.7.3-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+  </dependencies>
 </project>
